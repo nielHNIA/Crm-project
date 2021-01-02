@@ -1,0 +1,114 @@
+{% extends 'common/base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+
+
+
+<div class="container-fluid">
+
+  <h1 class="h3 mb-2 text-gray-800">Projects- 1200</h1>
+  <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
+      For more information about DataTables, please visit the <a target="_blank"
+          href="https://datatables.net">official DataTables documentation</a>.</p>
+
+ <hr class="featurette-divider">
+
+  <div class="row">
+	<div class="col">
+		<div class="col-md">
+			<div class="card text-center text-black  mb-3" id="total-orders">
+			  	<div class="card-header">
+			  		<h5 class="card-title">Projects Active</h5>
+			  	</div>
+			  	<div class="card-body">
+			    	<h3 class="card-title">800</h3>
+			  	</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col">
+		<div class="col-md">
+			<div class="card text-center text-black  mb-3" id="orders-delivered">
+			  	<div class="card-header">
+			  		<h5 class="card-title">Projects InActive</h5>
+			  	</div>
+			  	<div class="card-body">
+			    	<h3 class="card-title">400</h3>
+			  	</div>
+			</div>
+		</div>
+	</div>
+
+  </div>
+
+
+
+    <!-- Page Heading -->
+
+   <hr class="featurette-divider">
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">All Projects</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Office</th>
+                            <th>Age</th>
+                            <th>Start date</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Office</th>
+                            <th>Age</th>
+                            <th>Start date</th>
+                            <th>Salary</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+
+                        <tr>
+                            <td>Donna Snider</td>
+                            <td>Customer Support</td>
+                            <td>New York</td>
+                            <td>27</td>
+                            <td>2011/01/25</td>
+                            <td>$112,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->
+
+
+
+
+{% endblock content %}

@@ -1,0 +1,137 @@
+{% extends 'common/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-1 text-gray-800">Project description</h1>
+
+
+
+    <p class="lead">Bootstrap's default utility classes can be found on the official <a
+            href="https://getbootstrap.com/docs">Bootstrap Documentation</a> page. The custom utilities
+        below were created to extend this theme past the default utility classes built into Bootstrap's
+        framework.</p><!-- Default dropup button -->
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropup
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Report issue</a>
+    <a class="dropdown-item" href="#">Request</a>
+    <a class="dropdown-item" href="#">Warning</a>
+    <!-- Dropdown menu links -->
+  </div>
+</div>
+
+
+<hr class="featurette-divider">
+    <!-- Content Row -->
+    <h1 class="h3 mb-1 text-gray-800">Project Details</h1>
+
+      <dl class="row">
+        <dt class="col-sm-3">Description lists</dt>
+        <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+
+        <dt class="col-sm-3">Euismod</dt>
+        <dd class="col-sm-9">
+          <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+          <p>Donec id elit non mi porta gravida at eget metus.</p>
+        </dd>
+
+        <dt class="col-sm-3">Malesuada porta</dt>
+        <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+
+        <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+        <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+
+        <dt class="col-sm-3">Nesting</dt>
+        <dd class="col-sm-9">
+          <dl class="row">
+            <dt class="col-sm-4">Nested definition list</dt>
+            <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
+          </dl>
+        </dd>
+       </dl>
+
+
+<hr class="featurette-divider">
+
+      <table class="table table-bordered">
+<thead><h1 class="h3 mb-1 text-gray-800">Project Team</h1><button type="button" class="btn btn-primary btn-sm">Edit</button>
+
+<tr>
+<th scope="col">#</th>
+<th scope="col">First</th>
+<th scope="col">Last</th>
+<th scope="col">Handle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">1</th>
+<td>Mark</td>
+<td>Otto</td>
+<td>@mdo</td>
+</tr>
+<tr>
+<th scope="row">2</th>
+<td>Jacob</td>
+<td>Thornton</td>
+<td>@fat</td>
+</tr>
+<tr>
+<th scope="row">3</th>
+<td colspan="2">Larry the Bird</td>
+<td>@twitter</td>
+</tr>
+</tbody>
+</table>
+
+<hr class="featurette-divider">
+
+  <h1 class="h3 mb-1 text-gray-800">Previous Reports</h1>
+
+  <ul class="list-group">
+  <li class="list-group-item active">Cras justo odio</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Show all the reports</li>
+</ul>
+
+<hr class="featurette-divider">
+
+
+<div class="card text-center" style="width: 200px:">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Payments</h5>
+    <p class="card-text">All payments invoices made till now for this project.</p>
+    <a href="#" class="btn btn-primary">Click here</a>
+  </div>
+  <div class="card-footer text-muted">
+    Updated 2 days ago
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+{% endblock content %}

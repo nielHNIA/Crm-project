@@ -1,0 +1,13 @@
+{% extends 'common/base.html' %}
+{% load static %}
+{% block content %}
+
+
+{% for site in sites %}
+{{site.site_name}}
+{{site.site_detail}}
+{{site.work_order_no.work_order_no}}
+{% endfor %}
+
+
+{% endblock content %}
